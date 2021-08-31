@@ -32,7 +32,7 @@ for job in jobs:
         #print(job_desc.li.text.strip())
         #print(more_info)
         #print(salary)
-        print(location)
+        #print(location)
 
         csv_writer.writerow([com_name.strip(),skills.strip(),more_info,job_desc.li.text.strip(),location])
 csv_web.close()
